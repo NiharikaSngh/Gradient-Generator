@@ -1,0 +1,52 @@
+body{ text-align: center;
+    font-family: 'Ariel';
+    color: #d456bf;
+    padding: 20px;
+    letter-spacing: .2em;
+    text-shadow: -1px -1px #f8f2f2;
+ }
+ /* Video */
+ video#bgVideo{
+    position: fixed; /* Play the video in full screen mode */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    display: flex;
+    z-index: -1; /* Put the video behind all other elements*/
+  }
+ h1{
+  font-size: 40px;
+    margin:0;
+ }
+ h3{
+    font-size: 40px;
+    margin: 10px;
+ }
+ 
+ #gradient{
+     position:left;
+     margin-left: 40em;
+    background: linear-gradient(50deg , #dd1d66, #4ba3c4);
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 10px 540px 10px;  
+    box-shadow: 2px 31px 35px -15px rgb(81, 235, 176);  
+ }
+ 
+ #type-grad{
+    margin: 0 20px 10px 20px ;
+    background-color: rgb(248, 242, 242);
+    height: 30px;
+   width: 80px;
+   color: #e02e16;
+    text-align: center;
+   font-weight: bold;
+ }
+ 
+ 
+ 
